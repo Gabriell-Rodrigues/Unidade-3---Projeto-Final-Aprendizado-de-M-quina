@@ -84,14 +84,14 @@ Esses campos são usados apenas para montar o alvo, nunca como entrada do modelo
 3. Não é preciso enviar nenhum arquivo. Os dados são baixados automaticamente das URLs
    públicas do GitHub.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/USUARIO/REPOSITORIO/blob/main/notebook.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Gabriell-Rodrigues/Unidade-3---Projeto-Final-Aprendizado-de-M-quina/blob/main/notebook.ipynb)
 
 Exemplo de carregamento dos dados usado no notebook:
 
 ```python
 import pandas as pd
 
-base = "https://raw.githubusercontent.com/USUARIO/REPOSITORIO/main/data/"
+base = "https://raw.githubusercontent.com/Gabriell-Rodrigues/Unidade-3---Projeto-Final-Aprendizado-de-M-quina/main/data/"
 results = pd.read_csv(base + "results.csv")
 races = pd.read_csv(base + "races.csv")
 drivers = pd.read_csv(base + "drivers.csv")
@@ -100,8 +100,6 @@ qualifying = pd.read_csv(base + "qualifying.csv")
 status = pd.read_csv(base + "status.csv")
 circuits = pd.read_csv(base + "circuits.csv")
 ```
-
-Troque `USUARIO/REPOSITORIO` pelo caminho real do repositório do grupo.
 
 ## Modelos utilizados
 
