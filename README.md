@@ -18,7 +18,7 @@ Preencher com nome completo e usuário do GitHub de cada integrante.
 
 | Papel no trabalho | Nome completo | GitHub |
 |---|---|---|
-| Pessoa A | [preencher] | [@usuario] |
+| Pessoa A | Gabriel Rodrigues dos Santos | @Gabriell-Rodrigues |
 | Pessoa B | [preencher] | [@usuario] |
 | Pessoa C | [preencher] | [@usuario] |
 
@@ -92,13 +92,15 @@ Exemplo de carregamento dos dados usado no notebook:
 import pandas as pd
 
 base = "https://raw.githubusercontent.com/Gabriell-Rodrigues/Unidade-3---Projeto-Final-Aprendizado-de-M-quina/main/data/"
-results = pd.read_csv(base + "results.csv")
-races = pd.read_csv(base + "races.csv")
-drivers = pd.read_csv(base + "drivers.csv")
-constructors = pd.read_csv(base + "constructors.csv")
-qualifying = pd.read_csv(base + "qualifying.csv")
-status = pd.read_csv(base + "status.csv")
-circuits = pd.read_csv(base + "circuits.csv")
+
+# os arquivos da F1 marcam ausência com \N, então convertemos esse marcador para NaN na leitura
+results = pd.read_csv(base + "results.csv", na_values=r"\N")
+races = pd.read_csv(base + "races.csv", na_values=r"\N")
+drivers = pd.read_csv(base + "drivers.csv", na_values=r"\N")
+constructors = pd.read_csv(base + "constructors.csv", na_values=r"\N")
+qualifying = pd.read_csv(base + "qualifying.csv", na_values=r"\N")
+status = pd.read_csv(base + "status.csv", na_values=r"\N")
+circuits = pd.read_csv(base + "circuits.csv", na_values=r"\N")
 ```
 
 ## Modelos utilizados
@@ -178,9 +180,8 @@ Pessoa C
 | Item | Descrição |
 |---|---|
 | Ferramenta | Claude (assistente de IA da Anthropic). |
-| Finalidade | Ler e resumir o enunciado, organizar as etapas e dividir as tarefas entre os três integrantes, e montar a estrutura inicial do README e do notebook. |
-| Parte do trabalho | Planejamento e divisão das contribuições e estrutura dos arquivos. A implementação de cada seção é feita e conferida pelos integrantes. |
-| Verificação | Os integrantes leram o enunciado original, revisaram e validaram a divisão proposta, e cada um executa, confere e sabe explicar a sua parte do notebook. |
+| Finalidade | Dividir as tarefas entre os integrantes, montar a estrutura do README e apoiar a redação dos textos das seções. |
+| Parte do trabalho | Planejamento, organização dos arquivos e redação dos textos. |
 
 Se o grupo usar IA em outras partes do trabalho (por exemplo, para gerar ou revisar código
 ou texto), acrescentar uma linha aqui com a mesma estrutura: ferramenta, finalidade, parte
