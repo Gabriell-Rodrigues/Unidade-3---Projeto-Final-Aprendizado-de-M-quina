@@ -182,20 +182,3 @@ https://drive.google.com/file/d/1emKHBq_K_vQyDW1jVdIFfdmbIGv-rgYG/view?usp=drive
 | Ferramenta | Claude (assistente de IA da Anthropic). |
 | Finalidade | Dividir as tarefas entre os integrantes, montar a estrutura do README e apoiar a redação dos textos das seções. |
 | Parte do trabalho | Planejamento, organização dos arquivos e redação dos textos. |
-
-Se o grupo usar IA em outras partes do trabalho (por exemplo, para gerar ou revisar código
-ou texto), acrescentar uma linha aqui com a mesma estrutura: ferramenta, finalidade, parte
-e forma de verificação.
-
-## Checklist de entrega
-
-- [x] Repositório no GitHub com `README.md`, `notebook.ipynb` e a pasta `data/`
-- [ ] Notebook abre e roda de ponta a ponta no Colab
-- [x] Dados carregados por URL pública, sem arquivo local
-- [x] Seções 1 a 7 completas, com toda figura e tabela interpretada
-- [x] Modelos mínimos usados: SGDClassifier e RandomForestClassifier, mais o baseline
-- [x] Métricas de classificação: matriz de confusão, acurácia, precisão, revocação e F1
-- [x] Todos os integrantes identificados no GitHub, no notebook e no vídeo
-- [x] Vídeo gravado, cada integrante explica sua parte, com link no README
-- [x] Declaração de uso de IA preenchida
-- [ ] Um integrante envia o link do repositório pelo Google Classroom
