@@ -19,7 +19,7 @@ Preencher com nome completo e usuário do GitHub de cada integrante.
 | Papel no trabalho | Nome completo | GitHub |
 |---|---|---|
 | Pessoa A | Gabriel Rodrigues dos Santos | @Gabriell-Rodrigues |
-| Pessoa B | [preencher] | [@usuario] |
+| Pessoa B | Ysrael de Jesus Sacramento | @ysrael12 |
 | Pessoa C | [preencher] | [@usuario] |
 
 ## Fonte dos dados
