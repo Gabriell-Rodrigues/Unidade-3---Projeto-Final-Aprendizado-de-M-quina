@@ -173,7 +173,7 @@ Pessoa C
 
 ## Link do vídeo
 
-[preencher com o link do vídeo]
+https://drive.google.com/file/d/1emKHBq_K_vQyDW1jVdIFfdmbIGv-rgYG/view?usp=drive_link
 
 ## Declaração de uso de ferramentas de IA
 
@@ -189,13 +189,13 @@ e forma de verificação.
 
 ## Checklist de entrega
 
-- [ ] Repositório no GitHub com `README.md`, `notebook.ipynb` e a pasta `data/`
+- [x] Repositório no GitHub com `README.md`, `notebook.ipynb` e a pasta `data/`
 - [ ] Notebook abre e roda de ponta a ponta no Colab
-- [ ] Dados carregados por URL pública, sem arquivo local
-- [ ] Seções 1 a 7 completas, com toda figura e tabela interpretada
-- [ ] Modelos mínimos usados: SGDClassifier e RandomForestClassifier, mais o baseline
-- [ ] Métricas de classificação: matriz de confusão, acurácia, precisão, revocação e F1
-- [ ] Todos os integrantes identificados no GitHub, no notebook e no vídeo
-- [ ] Vídeo gravado, cada integrante explica sua parte, com link no README
-- [ ] Declaração de uso de IA preenchida
+- [x] Dados carregados por URL pública, sem arquivo local
+- [x] Seções 1 a 7 completas, com toda figura e tabela interpretada
+- [x] Modelos mínimos usados: SGDClassifier e RandomForestClassifier, mais o baseline
+- [x] Métricas de classificação: matriz de confusão, acurácia, precisão, revocação e F1
+- [x] Todos os integrantes identificados no GitHub, no notebook e no vídeo
+- [x] Vídeo gravado, cada integrante explica sua parte, com link no README
+- [x] Declaração de uso de IA preenchida
 - [ ] Um integrante envia o link do repositório pelo Google Classroom
