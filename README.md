@@ -14,8 +14,6 @@ treinamento, comparação de modelos, avaliação e discussão crítica.
 
 ## Integrantes
 
-Preencher com nome completo e usuário do GitHub de cada integrante.
-
 | Papel no trabalho | Nome completo | GitHub |
 |---|---|---|
 | Pessoa A | Gabriel Rodrigues dos Santos | @Gabriell-Rodrigues |
@@ -116,7 +114,7 @@ comparação das métricas com validação cruzada.
 
 ## Principais resultados
 
-Preencher após executar o notebook. Métricas medidas no conjunto de teste.
+Métricas medidas no conjunto de teste.
 
 | Modelo | Acurácia | Precisão | Revocação | F1 |
 |---|---|---|---|---|
