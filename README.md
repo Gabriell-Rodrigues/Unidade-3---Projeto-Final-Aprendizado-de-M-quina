@@ -20,7 +20,7 @@ Preencher com nome completo e usuário do GitHub de cada integrante.
 |---|---|---|
 | Pessoa A | Gabriel Rodrigues dos Santos | @Gabriell-Rodrigues |
 | Pessoa B | Ysrael de Jesus Sacramento | @ysrael12 |
-| Pessoa C | [preencher] | [@usuario] |
+| Pessoa C | Evilásio Cavalcante de Melo Neto | @EvilasioNtt |
 
 ## Fonte dos dados
 
@@ -120,11 +120,11 @@ Preencher após executar o notebook. Métricas medidas no conjunto de teste.
 
 | Modelo | Acurácia | Precisão | Revocação | F1 |
 |---|---|---|---|---|
-| Baseline | | | | |
-| SGDClassifier | | | | |
-| RandomForestClassifier | | | | |
+| Baseline | 0.577 | 0.000 | 0.000 | 0.000 |
+| SGDClassifier | 0.702 | 0.656 | 0.621 | 0.638 |
+| RandomForestClassifier | 0.689 | 0.643 | 0.597 | 0.619 |
 
-Resumir em uma ou duas frases qual modelo foi escolhido e por quê.
+O modelo escolhido foi o SGDClassifier pois, além de superar amplamente o baseline, apresentou o melhor equilíbrio geral de métricas, especialmente uma melhor capacidade de identificar a classe minoritária (Revocação) em relação ao Random Forest, resultando no melhor F1-Score.
 
 ## Divisão das contribuições
 
